@@ -16,7 +16,11 @@ export default function ThemeBtn() {
 
     return (
         <label className="relative inline-flex items-center cursor-pointer">
-            <img src={themebtn} onClick={onChangeBtn} className="w-10" />
+            <img
+                src={themebtn}
+                onClick={onChangeBtn}
+                className="w-10 h-10 rounded-full border-[2px] bg-white"
+            />
         </label>
     );
 }
