@@ -19,7 +19,7 @@ export default function ThemeBtn() {
             <img
                 src={themebtn}
                 onClick={onChangeBtn}
-                className="w-10 h-10 rounded-full border-[2px] bg-white"
+                className="sm:w-10 sm:h-10 w-5 h-5 rounded-full border-[2px] bg-white"
             />
         </label>
     );
