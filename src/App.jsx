@@ -5,6 +5,8 @@ import TodoItems from "./componenets/TodoItems";
 import { ThemeProvider } from "./contexts/theme";
 import ThemeBtn from "./componenets/themeBtn";
 
+alert("Your Todos are saved even if the tab are closed");
+
 function App() {
     const [todos, setTodos] = useState([]);
 
@@ -100,8 +102,7 @@ function App() {
                 }}
             >
                 <div className="bg-[#BFD8EC] bg-cover min-h-screen pb-8 w-full dark:bg-[#0A0A0E]  dark:bg-repeat dark:bg-contain">
-                    {/* <div className="bg-[url('./assets/bgPattern.jpg')] bg-repeat bg-contain bg-opacity-50 w-full min-h-screen"> */}
-                    <div className="dark:bg-[url('./assets/header-bg.jpg')] bg-[url('./assets/bgLight.jpg')] bg-cover w-full h-[200px] shadow-xl mb-10">
+                    <div className="dark:bg-[url('./assets/header-bg.jpg')] bg-[url('./assets/bgLight.jpg')] bg-cover w-full h-[100px] sm:h-[200px] shadow-xl mb-10">
                         <div className="flex items-center justify-between h-full w-full dark:bg-black/20 px-[20px] sm:px-[50px] py-10 dark:text-white text-[#240750]">
                             <div className="flex flex-col item-center justify-center text-left">
                                 <h1 className="sm:block hidden text-2xl font-bold">
@@ -121,7 +122,7 @@ function App() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-white">
+                    <div className="w-full max-w-2xl mx-auto sm:shadow-md rounded-lg px-4 py-3 text-white">
                         <div className="mb-4">
                             <TodoForm />
                         </div>
@@ -132,7 +133,6 @@ function App() {
                                 </div>
                             ))}
                         </div>
-                        {/* </div> */}
                     </div>
                 </div>
             </TodoProvider>

@@ -5,12 +5,12 @@ import themebtn from "../assets/theme.png";
 export default function ThemeBtn() {
     const { themeMode, lightTheme, darkTheme } = useTheme();
     const onChangeBtn = (e) => {
-        if (themeMode == "light") {
+        if (themeMode === "Light" || themeMode === "light") {
             darkTheme();
-            themeMode = !themeMode;
+            !themeMode;
         } else {
             lightTheme();
-            themeMode = !themeMode;
+            !themeMode;
         }
     };
 
