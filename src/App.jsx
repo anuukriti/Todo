@@ -5,7 +5,7 @@ import TodoItems from "./componenets/TodoItems";
 import { ThemeProvider } from "./contexts/theme";
 import ThemeBtn from "./componenets/themeBtn";
 
-alert("Your Todos are saved even if the tab are closed");
+
 
 function App() {
     const [todos, setTodos] = useState([]);
