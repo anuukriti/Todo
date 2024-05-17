@@ -18,7 +18,7 @@ function TodoForm() {
         <form onSubmit={add} className="flex">
             <input
                 type="text"
-                placeholder="Start typing..."
+                placeholder="Your Todos are saved even if the tab is closed"
                 className="w-full border text-[#5d608c] dark:text-white border-black/10 dark:border-2 dark:border-white rounded-l-lg px-3 outline-none duration-150 bg-white/20 py-1.5"
                 value={todo}
                 onChange={(e) => setTodo(e.target.value)}
