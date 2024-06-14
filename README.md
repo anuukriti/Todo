@@ -1,8 +1,22 @@
-# React + Vite
+# Todo List Application
+## Overview
+<p>
+  This Todo List application is a simple and efficient tool to manage daily tasks. Built with React, Tailwind CSS, and Context API, it offers a seamless user experience with features like light and dark mode, local storage for data persistence, and intuitive CRUD operations.
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h3>Link to project: <a href="https://mytoodooo.netlify.app/" target="_blank">My Todo</a></h3>
 
-Currently, two official plugins are available:
+## Features
+<p>Add Todos: Easily add new tasks to your list.</p>
+<p>Edit Todos: Update the text of existing tasks.</p>
+<p>Delete Todos: Remove tasks that are no longer needed.</p>
+<p>Checkmark Todos: Mark tasks as completed.</p>
+<p>Light/Dark Mode: Toggle between light and dark themes.</p>
+<p>Persistent Storage: Save todos in local storage to retain data across sessions.</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+<h3>React</h3>
+<h3>Tailwind CSS</h3>
+<h3>Context API</h3>
+<h3>Local Storage</h3>
